@@ -8,11 +8,11 @@ Project developed dring the Front-end Engineer Path from the codecademy curricul
 
 Test the React-Redux and Redux Tool Kit material learned.
 
-+ configure individual slices modules using <b>createSlice()</b>; ('@reduxjs/toolkit')
-+ configure a store module wth <b>configureStore()</b> and the individual slice modules. ('@reduxjs/toolkit')
-+ use <b>useSelector()</b> in conjunction with the defined selectors in each individual state slices to access the <b>Store</b>; ('react-redux)
-+ create <b>selector</b>'s to access the states for manipulation; ('react-redux')
-+ with <b>useDispatch()</b> dispatch actions to the store to update rendering; ('react-redux')
++ configure individual slices modules using **createSlice()**; ('@reduxjs/toolkit')
++ configure a store module wth **configureStore()** and the individual slice modules. ('@reduxjs/toolkit')
++ use **useSelector()** in conjunction with the defined selectors in each individual state slices to access the **Store**; ('react-redux)
++ create **selector**'s to access the states for manipulation; ('react-redux')
++ with **useDispatch()** dispatch actions to the store to update rendering; ('react-redux')
 + understand the view => middleware => Action (dispatch) => view Redux workflow
 
 # To Run
