@@ -1,12 +1,6 @@
-# Flashcards, a challange from codecademy
+# Flashcards :card_file_box:
 
-## About
-
-Project developed dring the Front-end Engineer Path from the codecademy curriculum.
-
-## Goals
-
-Test the React-Redux and Redux Tool Kit material learned.
+Project developed during the Front-end Engineer Path from the codecademy curriculum. The goals of this project were to put the material taught from React-Redux and the Redux Tool Kit to the test, as well as the following goals:
 
 + configure individual slices modules using **createSlice()**; ('@reduxjs/toolkit')
 + configure a store module wth **configureStore()** and the individual slice modules. ('@reduxjs/toolkit')
@@ -15,25 +9,39 @@ Test the React-Redux and Redux Tool Kit material learned.
 + with **useDispatch()** dispatch actions to the store to update rendering; ('react-redux')
 + understand the view => middleware => Action (dispatch) => view Redux workflow
 
-# To Run
+---
 
-Run `npm start` in the project root and the app will be available on port 3000.
+## How To Use 🔧
 
-# State
+From your command line, first clone Flashcards:
 
-The app's state is totally normalized, with slices for topics, quizzes, and cards.
+```bash
+# Clone this repository
+$ git clone https://github.com/inarie/Flashcards.git
 
-# Routes
+# Go into the repository
+$ cd Flashcards
 
-- `/new-topic` – form to create a new topic
-- `/topics` – index of all topics
-- `/topics/:topicId` – page for an individual topic
-- `/new-quiz` – form to create a new quiz
-- `/quizzes` – index of all quizzes
-- `/quizzes/:quizId` – page for an individual quiz
+```
 
-# To Test
+Then you can install the dependencies using NPM:
 
-1. Create topics
-2. Create quizzes
-3. Visit the page for an individual quiz and flip the cards over
+```bash
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
+```
+
+**NOTE**:
+If your run into issues installing the dependencies with NPM, use this command:
+
+```bash
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
+
+Once your server has started, go to this url `http://localhost:3000/` and you will see the website running.
+
+---
